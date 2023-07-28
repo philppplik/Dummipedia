@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Meine coole GitHub-Seite</title>
+  <title>Meine GitHub Seite</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
@@ -10,43 +11,53 @@
 <body>
 
   <header>
-   <!-- gleich wie oben -->
+    <h1>Max Mustermann</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Über mich</a></li>
+        <li><a href="#">Projekte</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Kontakt</a></li>  
+      </ul>
+    </nav>
   </header>
 
   <main>
 
-   <!-- Über mich Sektion -->
+    <section id="about">
+      <h2>Über mich</h2>
+      <p>Ich bin ein Webentwickler...</p>
+    </section>
 
-   <section id="blog">
-     <h2>Mein Blog</h2>
+    <section id="projects">
+      <h2>Meine Projekte</h2>
+      
+      <!-- Projekt-Artikel wie oben -->
 
-     <div class="columns">
+    </section>
 
-       <article>
-         <h3>Blog Post 1</h3>
-         <p>Zusammenfassung von Post 1...</p>
-         <a href="#">Weiterlesen</a>
-       </article>
+    <section id="blog">
+      <h2>Neueste Blog Posts</h2>
+      
+      <div class="columns">
+        <article>
+          <h3>Blog Post 1</h3>
+          <p>Zusammenfassung...</p>
+          <a href="#">Weiterlesen</a>
+        </article>
 
-       <article>
-         <h3>Blog Post 2</h3>
-         <p>Zusammenfassung von Post 2...</p>
-         <a href="#">Weiterlesen</a>
-       </article>
-.columns {
-  display: flex;
-}
+        <!-- weitere Artikel -->
+      </div>
 
-.columns article {
-  flex: 1; 
-}
-     </div>
-
-   </section>
+      <a href="#" class="more">Alle Blog Posts anzeigen</a>
+        
+    </section>
 
   </main>
-
-  <!-- Footer -->
+  
+  <footer>
+    <p>&copy; Max Mustermann 2023</p> 
+  </footer>
 
 </body>
 </html>
