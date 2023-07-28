@@ -1,1 +1,1 @@
-# S-arrtikel
+# S-artikel
