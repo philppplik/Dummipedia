@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hallo Welt</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wikipedia-ähnliche Seite</title>
+  <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
 
-  <h1>Hallo Welt</h1>
-  
-  <h2>Inhaltsverzeichnis</h2>
-  
-  <ul>
-    <li><a href="#kapitel1">Kapitel 1 - Freistunden und ihre immense Bedeutung</a></li>
-    <li><a href="#kapitel2">Kapitel 2 - Wie Sport Umweltkatastrophen verursacht</a></li>
-    <li><a href="#kapitel3">Kapitel 3 - Kuriose Errungenschaft: LiSt</a></li>
-    <!-- Weitere Kapitelüberschriften hier ergänzen -->
-  </ul>
-  
-  <h2 id="kapitel1">Kapitel 1 - Freistunden und ihre immense Bedeutung</h2>
-  
-  <p>Hallo Welt, wir schreiben an euch in dem Bestreben, eine tolle Botschaft zu verbreiten...</p>
-  
-  <!-- Inhalt von Kapitel 1 hier ergänzen -->
-  
-  <h2 id="kapitel2">Kapitel 2 - Wie Sport Umweltkatastrophen verursacht</h2>
+<div class="header">
+  <h1>Wikipedia</h1>
+  <div class="search">
+    <form>
+      <input type="text" placeholder="Suche...">
+      <button type="submit">Los</button> 
+    </form>
+  </div>
+  <div class="nav">
+    <a href="#">Hauptseite</a>
+    <a href="#">Zufälliger Artikel</a>
+    <a href="#">Hilfe</a>
+  </div>
+</div>
 
-  <p>Weitere, nicht außer Acht zu lassende Aspekte für die Notwendigkeit von sportlichen Aktivitäten...</p>
+<div class="content">
 
-  <!-- Inhalt von Kapitel 2 hier ergänzen -->
-
-  <!-- Weitere Kapitel hier wie oben ergänzen -->
+  <div class="sidebar">
+    <h3>Navigation</h3>
+    <ul>
+      <li><a href="#">Kategorie 1</a></li>
+      <li><a href="#">Kategorie 2</a></li>
+      <li><a href="#">Kategorie 3</a></li>
+    </ul>
+  </div>
   
+  <div class="main">
+    <h2>Überschrift</h2>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+    <h3>Unterüberschrift</h3>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>&copy; 2023 Wikipedia</p>
+</div>
+
 </body>
 </html>
