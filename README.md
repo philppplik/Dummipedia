@@ -1,1 +1,1 @@
-# S-artikel
+# Dummipedia
