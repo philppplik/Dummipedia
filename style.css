@@ -1,1 +1,47 @@
+/* styles.css */
 
+/* UI Verbesserungen */
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333333;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+a {
+  color: #0077cc;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #eee;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Dynamische Artikel */
+
+.article {
+  padding: 20px;
+}
+
+.article h2 {
+  margin-top: 0;
+}
+
+.article p {
+  line-height: 1.5;
+}
