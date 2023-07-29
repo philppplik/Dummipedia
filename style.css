@@ -1,5 +1,9 @@
 /* styles.css */
+/* Styles */
 
+.header {
+  display: flex;
+  align-items: center;
 /* UI Verbesserungen */
 
 body {
