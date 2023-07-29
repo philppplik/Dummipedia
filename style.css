@@ -6,46 +6,74 @@
   align-items: center;
 /* UI Verbesserungen */
 
+/* Modernes, gerundetes Design */
+
 body {
-  font-family: 'Libre Baskerville', sans-serif;
-  color: #333333;
+  background: #f9f9f9; 
+  border-radius: 15px;
 }
+
+.header,
+.footer,
+.sidebar, 
+.article {
+  border: 1px solid #dfdfdf;
+  border-radius: 15px; 
+}
+
+/* Custom Font */
 
 h1, h2, h3 {
-  font-weight: bold;
+  font-family: 'Libre Baskerville', serif;
 }
+
+/* Headingleiste mit Bottom Border */
+
+.page-title {
+  border-bottom: 1px solid #dfdfdf;
+  padding: 20px;
+}
+
+/* Seitenleiste */
+
+.sidebar {
+  width: 200px;
+  float: left;
+}
+
+.sidebar-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  border-bottom: 1px solid #dfdfdf;
+} 
+
+.sidebar-nav a {
+  display: block;
+  padding: 10px 15px;
+}
+
+/* Restliche Verbesserungen */
 
 a {
-  color: #0077cc;
-}
-
-a:hover {
   text-decoration: none;
 }
 
-.header {
-  background-color: #eee;
-  border-bottom: 1px solid #ddd;
-  padding: 20px;
+a:hover {
+  text-decoration: underline; 
 }
 
-.footer {
-  background-color: #eee;
-  border-top: 1px solid #ddd;
-  padding: 10px;
-  text-align: center;
+button {
+  background: #0077cc;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 15px;
 }
 
-/* Dynamische Artikel */
-
-.article {
-  padding: 20px;
-}
-
-.article h2 {
-  margin-top: 0;
-}
-
-.article p {
-  line-height: 1.5;
+button:hover {
+  background: #005599;
+  cursor: pointer; 
 }
