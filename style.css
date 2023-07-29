@@ -1,12 +1,40 @@
-/* styles.css */
-/* Styles */
+/* Headingleiste */
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-/* UI Verbesserungen */
+}
 
-/* Modernes, gerundetes Design */
+.logo {
+  flex: 1 0 200px; 
+}
+
+.search {
+  flex: 1 0 300px;
+}
+
+.navigation {
+  flex: 1 0 200px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  
+  .search {
+    order: 3;
+    flex-basis: 100%;
+  } 
+  
+  .navigation {
+    order: 2;
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
 
 body {
   background: #f9f9f9; 
