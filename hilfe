@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hilfe - Dummipedia</title>
+</head>
+<body>
+
+  <header>
+    <h1>Hilfe</h1>
+  </header>
+  
+  <main>
+  
+    <h2>Häufig gestellte Fragen</h2>
+    
+    <h3>Wie kann ich mich registrieren?</h3>
+    <p>Um sich zu registrieren, klicken Sie oben rechts auf "Registrieren" und folgen Sie den Anweisungen.</p>
+
+    <h3>Wie funktioniert das Login?</h3>
+    <p>Geben Sie auf der Login-Seite Ihre E-Mail und Ihr Passwort ein und klicken Sie auf "Login".</p>
+    
+    <h3>Wie aktualisiere ich mein Profil?</h3>
+    <p>Klicken Sie oben rechts auf Ihren Benutzernamen und dann auf "Profil". Dort können Sie Ihre Daten bearbeiten.</p>
+
+    <h2>Kontakt</h2>
+    
+    <p>Bei weiteren Fragen wenden Sie sich bitte per E-Mail an <a href="mailto:info@meinewebsite.de">info@meinewebsite.de</a> oder rufen Sie uns an unter 0123 456789.</p>
+    
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Meine Website</p>
+  </footer>
+
+</body>
+</html>
